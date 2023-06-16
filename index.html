@@ -1,0 +1,34 @@
+<html>
+<head>
+<title>AI Object Finder</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/p5@1.0.0/lib/addons/p5.sound.min.js"></script>
+<script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body background = "Background.gif">
+<center>
+<h1 class = "btn btn-danger btn-lg heading" id = "heading">AI OBJECT FINDER</h1>
+<br>
+<span>
+<button class = "btn btn-info" onclick = "start()" id = "startBT">Start</button>
+<button class = "btn btn-primary" id = "b-2" onclick = "play()">Play Background Music</button>
+</span>
+<br>
+<span>
+<label id = "l1">Object Name : </label>
+<input type = "text" class = "form-control" id = "object_name">
+</span>
+<span>
+<h3 id = "status" class = "btn btn-warning"></h3>
+<h3 id = "n_o_b" class = "btn btn-success"></h3>
+</span>
+</center>
+<div class = "Copyright-Footer">Developed By Shourya Kaundal</div>
+<script src="main.js"></script>
+</body>
+</html>
